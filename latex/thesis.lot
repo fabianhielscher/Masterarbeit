@@ -1,0 +1,14 @@
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Overview of performed experiments.\relax }}{23}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces AUTOMAP MSEs with differently normalized data-sets. Default hyperparameter with learning rate of $2\cdot 10^{-5}$, multiplicative noise on k-space data input, no dropout and no momentum are utilized. K-space input data is fully sampled.\relax }}{31}
+\contentsline {table}{\numberline {4.2}{\ignorespaces AUTOMAP MSEs with different undersampling masks. Default hyperparameter with learning rate of $2\cdot 10^{-5}$, multiplicative noise on k-space data input, no dropout and no momentum are utilized. The amount of k-space undersampling is determined by the reduction factor.\relax }}{32}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Top 10 AUTOMAP MSEs with different hyperparameters.\relax }}{33}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Reconstruction metric results for CS and AUTOMAP\relax }}{34}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Number of weights and biases for AUTOMAP\relax }}{41}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

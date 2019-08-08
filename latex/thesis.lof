@@ -1,0 +1,27 @@
+\select@language {english}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Number of magnetic resonance imaging (MRI) scan examinations in Germany from 2008 to 2015 \cite {stat}\relax }}{4}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Gradients for slice selection, frequency encoding and phase encoding are utilized to locate signals in 3D space. \cite {Encoding2019}\relax }}{7}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces MR pulse timing diagram with simplified rectangular gradient representation. The phase of the proton in the gradient is permanently shifted $(\Phi )$ after the gradient is applied, whereas the reference proton's phase does not shift.\relax }}{8}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Comparison between $\ell _0$, $\ell _1$ and $\ell _2$ norm for a minimization problem in the form of $\qopname \relax m{min}\left \delimiter 69645069 \boldsymbol {w} \right \delimiter 86422285 $ such that $\boldsymbol {Aw}=\boldsymbol {y}$. Blue points indicate constant values of $\left \delimiter 69645069 \boldsymbol {w} \right \delimiter 86422285 $ for the corresponding norm. Red points are solutions of $\boldsymbol {Aw}=\boldsymbol {y}$. Note that the red line $\boldsymbol {y}$ intersects the $\ell _2$ circle at a non-sparse point, while $\ell _0$ and $\ell _1$ both enforce $w_2$ to be $0$.\relax }}{11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The original Fabio image (left) and the absolute values after application of a discrete gradient operator(right) \cite {Krahmer2017}.\relax }}{12}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Multilayer perceptron network \cite {Werner2016}.\relax }}{13}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Three different activation functions\relax }}{14}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces \textbf {Left:} Neural network with one hidden layer \textbf {Right:} Example of a thinned neural network produced by applying dropout with $p_{keep}=0.5$ to the network on the left. Crossed out units and their connections are dropped.\relax }}{18}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Graphical representation of AUTOMAP neural network layers\relax }}{20}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Example images with equal MSE and different SSIM. \textbf {Left:} Original image \textbf {Middle:} Image with noise \textbf {Right:} Image with added constant, which is chosen to match MSE of the image with noise. In this case the SSIM represents the perceived quality much better than the MSE.\relax }}{22}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Signal processing chain from raw image data to final image reconstruction. The dashed line describes data flow that only appears during neural network training.\relax }}{24}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textbf {Top row:} Scaling factors $s_{lin}$ and $s_{log}$ in two different number ranges. \textbf {Bottom row:} Functions $f_{lin}$ and $f_{log}$ in two different number ranges. The bigger the absolute value of x, the smaller the scaling factor.\relax }}{26}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sampling masks where black pixels include and white pixels exclude k-space data samples.\relax }}{29}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces AUTOMAP MSEs with different hyper parameters. These violin plots show minimum, median and maximum by horizontal line marks and the whole sample distribution by the shape for each hyper parameter (shape width correlates with number of samples for the corresponding MSE).\relax }}{34}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Reconstructions of the brain image and four images from the test-set. The absolute errors range from 0 (black) to 0.25 (white) and the local SSIMs range from 1 (white) to 0.75 (black) to improve visualization.\relax }}{35}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Comparison of required time to reconstruct images between CPU and GPU.\relax }}{38}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces MSE comparison between our and Nature paper reconstruction results.\relax }}{38}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Prediction errors during training for training- validation- and test-set for the final neural network.\relax }}{39}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Reconstructions of five images from the test-set. The absolute errors range from 0 (black) to 0.25 (white) and the local SSIMs range from 1 (white) to 0.75 (black) to improve visualization.\relax }}{54}

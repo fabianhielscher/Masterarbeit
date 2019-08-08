@@ -1,0 +1,608 @@
+% Encoding: UTF-8
+
+@Article{Zhu2018,
+  author        = {Zhu, B. and Liu, J. Z. and Cauley, S. F. and Rosen, B. R. and Rosen, M. S.},
+  title         = {Image reconstruction by domain-transform manifold learning},
+  year          = {2018},
+  volume        = {555},
+  pages         = {487-492},
+  month         = mar,
+  abstract      = {Image reconstruction is essential for imaging applications across the physical and life sciences, including optical and radar systems, magnetic resonance imaging, X-ray computed tomography, positron emission tomography, ultrasound imaging and radio astronomy. During image acquisition, the sensor encodes an intermediate representation of an object in the sensor domain, which is subsequently reconstructed into an image by an inversion of the encoding function. Image reconstruction is challenging because analytic knowledge of the exact inverse transform may not exist a priori, especially in the presence of sensor non-idealities and noise. Thus, the standard reconstruction approach involves approximating the inverse function with multiple ad hoc stages in a signal processing chain, the composition of which depends on the details of each acquisition strategy, and often requires expert parameter tuning to optimize reconstruction performance. Here we present a unified framework for image reconstruction{\mdash}automated transform by manifold approximation (AUTOMAP){\mdash}which recasts image reconstruction as a data-driven supervised learning task that allows a mapping between the sensor and the image domain to emerge from an appropriate corpus of training data. We implement AUTOMAP with a deep neural network and exhibit its flexibility in learning reconstruction transforms for various magnetic resonance imaging acquisition strategies, using the same network architecture and hyperparameters. We further demonstrate that manifold learning during training results in sparse representations of domain transforms along low-dimensional data manifolds, and observe superior immunity to noise and a reduction in reconstruction artefacts compared with conventional handcrafted reconstruction methods. In addition to improving the reconstruction performance of existing acquisition methodologies, we anticipate that AUTOMAP and other learned reconstruction approaches will accelerate the development of new acquisition strategies across imaging modalities.},
+  archiveprefix = {arXiv},
+  doi           = {10.1038/nature25988},
+  eprint        = {1704.08841},
+  primaryclass  = {cs.CV},
+  url           = {http://adsabs.harvard.edu/abs/2018Natur.555..487Z},
+}
+
+@Article{Hansen1990,
+  author    = {Hansen, Lars Kai and Salamon, Peter},
+  title     = {Neural network ensembles},
+  journal   = {IEEE transactions on pattern analysis and machine intelligence},
+  year      = {1990},
+  volume    = {12},
+  number    = {10},
+  pages     = {993--1001},
+  publisher = {IEEE},
+}
+
+@Misc{Werner2016,
+  author    = {Herbert Werner},
+  title     = {Linear and Nonlinear System Identification},
+  month     = may,
+  year      = {2016},
+  note      = {Available at \url{https://www.tuhh.de/t3resources/ics/PDFs/LN_Systemident/lnsi.pdf}},
+  timestamp = {2018-10-08},
+  url       = {https://www.tuhh.de/t3resources/ics/PDFs/LN_Systemident/lnsi.pdf},
+}
+
+@Article{Hornik1989,
+  author    = {Hornik, Kurt and Stinchcombe, Maxwell and White, Halbert},
+  title     = {Multilayer feedforward networks are universal approximators},
+  journal   = {Neural networks},
+  year      = {1989},
+  volume    = {2},
+  number    = {5},
+  pages     = {359--366},
+  publisher = {Elsevier},
+}
+
+@Article{Karlik2011,
+  author  = {Karlik, Bekir and Olgac, A Vehbi},
+  title   = {Performance analysis of various activation functions in generalized MLP architectures of neural networks},
+  journal = {International Journal of Artificial Intelligence and Expert Systems},
+  year    = {2011},
+  volume  = {1},
+  number  = {4},
+  pages   = {111--122},
+}
+
+@InProceedings{Maas2013,
+  author    = {Maas, Andrew L and Hannun, Awni Y and Ng, Andrew Y},
+  title     = {Rectifier nonlinearities improve neural network acoustic models},
+  booktitle = {Proc. icml},
+  year      = {2013},
+  volume    = {30},
+  number    = {1},
+  pages     = {3},
+}
+
+@Misc{Hinton,
+  author = {Geoffrey Hinton, Nitish Srivastava, Kevin Swersky},
+  title  = {Neural Networks for Machine Learning - Lecture 6a - Overview of mini-batch gradient descent},
+  year   = {2012},
+  note   = {Available at \url{http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf}, Version 1.4},
+}
+
+@Article{Basu2018,
+  author  = {Basu, Amitabh and De, Soham and Mukherjee, Anirbit and Ullah, Enayat},
+  title   = {Convergence guarantees for RMSProp and ADAM in non-convex optimization and their comparison to Nesterov acceleration on autoencoders},
+  journal = {arXiv preprint arXiv:1807.06766},
+  year    = {2018},
+}
+
+@PhdThesis{ChandraMukkamala2017,
+  author = {Chandra Mukkamala, Mahesh and Hein, Matthias and Weickert, Joachim},
+  title  = {Variants of RMSProp and Adagrad with Logarithmic Regret Bounds},
+  school = {Universit{\"a}t des Saarlandes Saarbr{\"u}cken},
+  year   = {2017},
+}
+
+@Misc{a,
+  author       = {Google inc.},
+  title        = {RMSProp implementation},
+  howpublished = {Online},
+  note         = {Available at \url{https://www.tensorflow.org/api_docs/python/tf/train/RMSPropOptimizer}},
+}
+
+@InProceedings{Sutskever2013,
+  author    = {Sutskever, Ilya and Martens, James and Dahl, George and Hinton, Geoffrey},
+  title     = {On the importance of initialization and momentum in deep learning},
+  booktitle = {International conference on machine learning},
+  year      = {2013},
+  pages     = {1139--1147},
+}
+
+@Article{Srivastava2014,
+  author    = {Srivastava, Nitish and Hinton, Geoffrey and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan},
+  title     = {Dropout: a simple way to prevent neural networks from overfitting},
+  journal   = {The Journal of Machine Learning Research},
+  year      = {2014},
+  volume    = {15},
+  number    = {1},
+  pages     = {1929--1958},
+  publisher = {JMLR. org},
+}
+
+@Misc{b,
+  author       = {Google inc.},
+  title        = {Dropout implementation},
+  howpublished = {Online},
+  note         = {Available at \url{https://www.tensorflow.org/api_docs/python/tf/train/RMSPropOptimizer}},
+}
+
+@Book{Dreyfus2005,
+  title     = {Neural networks: methodology and applications},
+  publisher = {Springer Science \& Business Media},
+  year      = {2005},
+  author    = {Dreyfus, G{\'e}rard},
+}
+
+@Article{Bengio2015,
+  author    = {Bengio, Yoshua and Goodfellow, Ian J and Courville, Aaron},
+  title     = {Deep learning},
+  journal   = {Nature},
+  year      = {2015},
+  volume    = {521},
+  number    = {7553},
+  pages     = {436--444},
+  publisher = {Citeseer},
+}
+
+@InProceedings{Deng2009,
+  author       = {Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li},
+  title        = {Imagenet: A large-scale hierarchical image database},
+  booktitle    = {Computer Vision and Pattern Recognition, 2009. CVPR 2009. IEEE Conference on},
+  year         = {2009},
+  pages        = {248--255},
+  organization = {Ieee},
+}
+
+@InProceedings{Zhang2016,
+  author       = {Zhang, Tian-hu and You, Xue-yi},
+  title        = {Comparing the linear and logarithm normalized artificial neural networks in inverse design of aircraft cabin environment},
+  booktitle    = {Building Simulation},
+  year         = {2016},
+  volume       = {9},
+  number       = {6},
+  pages        = {729--734},
+  organization = {Springer},
+}
+
+@Article{Avcibas2002,
+  author    = {Avcibas, Ismail and Sankur, Bulent and Sayood, Khalid},
+  title     = {Statistical evaluation of image quality measures},
+  journal   = {Journal of Electronic imaging},
+  year      = {2002},
+  volume    = {11},
+  number    = {2},
+  pages     = {206--224},
+  publisher = {International Society for Optics and Photonics},
+}
+
+@Article{Wang2004,
+  author    = {Wang, Zhou and Bovik, Alan C and Sheikh, Hamid R and Simoncelli, Eero P},
+  title     = {Image quality assessment: from error visibility to structural similarity},
+  journal   = {IEEE transactions on image processing},
+  year      = {2004},
+  volume    = {13},
+  number    = {4},
+  pages     = {600--612},
+  publisher = {IEEE},
+}
+
+@Article{Lustig2007,
+  author    = {Lustig, Michael and Donoho, David and Pauly, John M},
+  title     = {Sparse MRI: The application of compressed sensing for rapid MR imaging},
+  journal   = {Magnetic Resonance in Medicine: An Official Journal of the International Society for Magnetic Resonance in Medicine},
+  year      = {2007},
+  volume    = {58},
+  number    = {6},
+  pages     = {1182--1195},
+  publisher = {Wiley Online Library},
+}
+
+@Article{Candes2008,
+  author  = {Cand{\`e}s, Emmanuel J and Wakin, Michael B},
+  title   = {An introduction to compressive sampling [a sensing/sampling paradigm that goes against the common knowledge in data acquisition]},
+  journal = {IEEE signal processing magazine},
+  year    = {2008},
+  volume  = {25},
+  number  = {2},
+  pages   = {21--30},
+}
+
+@Article{Romberg2008,
+  author    = {Romberg, Justin},
+  title     = {Imaging via compressive sampling},
+  journal   = {IEEE Signal Processing Magazine},
+  year      = {2008},
+  volume    = {25},
+  number    = {2},
+  pages     = {14--20},
+  publisher = {IEEE},
+}
+
+@Article{Arce2014,
+  author    = {Arce, Gonzalo R and Brady, David J and Carin, Lawrence and Arguello, Henry and Kittle, David S},
+  title     = {Compressive coded aperture spectral imaging: An introduction},
+  journal   = {IEEE Signal Processing Magazine},
+  year      = {2014},
+  volume    = {31},
+  number    = {1},
+  pages     = {105--115},
+  publisher = {IEEE},
+}
+
+@InCollection{Foucart2013,
+  author    = {Foucart, Simon and Rauhut, Holger},
+  title     = {An Invitation to Compressive Sensing},
+  booktitle = {A mathematical introduction to compressive sensing},
+  publisher = {Springer},
+  year      = {2013},
+  pages     = {1--39},
+}
+
+@InProceedings{Prades-Nebot2009,
+  author       = {Prades-Nebot, Josep and Ma, Yi and Huang, Thomas},
+  title        = {Distributed video coding using compressive sampling},
+  booktitle    = {2009 Picture Coding Symposium},
+  year         = {2009},
+  pages        = {1--4},
+  organization = {IEEE},
+}
+
+@Article{Rivenson2010,
+  author    = {Rivenson, Yair and Stern, Adrian and Javidi, Bahram},
+  title     = {Compressive fresnel holography},
+  journal   = {Journal of Display Technology},
+  year      = {2010},
+  volume    = {6},
+  number    = {10},
+  pages     = {506--509},
+  publisher = {IEEE},
+}
+
+@Article{Budillon2011,
+  author    = {Budillon, Alessandra and Evangelista, Annarita and Schirinzi, Gilda},
+  title     = {Three-dimensional SAR focusing from multipass signals using compressive sampling},
+  journal   = {IEEE Transactions on Geoscience and Remote Sensing},
+  year      = {2011},
+  volume    = {49},
+  number    = {1},
+  pages     = {488--499},
+  publisher = {IEEE},
+}
+
+@Article{Caione2012,
+  author    = {Caione, Carlo and Brunelli, Davide and Benini, Luca},
+  title     = {Distributed compressive sampling for lifetime optimization in dense wireless sensor networks},
+  journal   = {IEEE Transactions on Industrial Informatics},
+  year      = {2012},
+  volume    = {8},
+  number    = {1},
+  pages     = {30--40},
+  publisher = {IEEE},
+}
+
+@InProceedings{Feng2009,
+  author       = {Feng, Chen and Valaee, Shahrokh and Tan, Zhenhui},
+  title        = {Multiple target localization using compressive sensing},
+  booktitle    = {GLOBECOM 2009-2009 IEEE Global Telecommunications Conference},
+  year         = {2009},
+  pages        = {1--6},
+  organization = {IEEE},
+}
+
+@Article{Berger2010,
+  author    = {Berger, Christian R and Wang, Zhaohui and Huang, Jianzhong and Zhou, Shengli},
+  title     = {Application of compressive sensing to sparse channel estimation},
+  journal   = {IEEE Communications Magazine},
+  year      = {2010},
+  volume    = {48},
+  number    = {11},
+  pages     = {164--174},
+  publisher = {Citeseer},
+}
+
+@InProceedings{Candes2006,
+  author       = {Cand{\`e}s, Emmanuel J and others},
+  title        = {Compressive sampling},
+  booktitle    = {Proceedings of the international congress of mathematicians},
+  year         = {2006},
+  volume       = {3},
+  pages        = {1433--1452},
+  organization = {Madrid, Spain},
+}
+
+@Article{Baraniuk2011,
+  author  = {Baraniuk, Richard and Davenport, Mark A and Duarte, Marco F and Hegde, Chinmay and others},
+  title   = {An introduction to compressive sensing},
+  journal = {Connexions e-textbook},
+  year    = {2011},
+  pages   = {24--76},
+}
+
+@Article{Quinsac2012,
+  author    = {Quinsac, C{\'e}line and Basarab, Adrian and Kouam{\'e}, Denis},
+  title     = {Frequency domain compressive sampling for ultrasound imaging},
+  journal   = {Advances in Acoustics and Vibration},
+  year      = {2012},
+  volume    = {2012},
+  publisher = {Hindawi},
+}
+
+@InProceedings{Candes2007,
+  author       = {Candes, Emmanuel and Braun, Nathaniel and Wakin, Michael},
+  title        = {Sparse signal and image recovery from compressive samples},
+  booktitle    = {2007 4th IEEE International Symposium on Biomedical Imaging: From Nano to Macro},
+  year         = {2007},
+  pages        = {976--979},
+  organization = {IEEE},
+}
+
+@Article{Yu2010,
+  author    = {Yu, Ying and Wang, Bin and Zhang, Liming},
+  title     = {Saliency-based compressive sampling for image signals},
+  journal   = {IEEE signal processing letters},
+  year      = {2010},
+  volume    = {17},
+  number    = {11},
+  pages     = {973--976},
+  publisher = {IEEE},
+}
+
+@InProceedings{Nagesh2009,
+  author       = {Nagesh, Pradeep and Li, Baoxin},
+  title        = {Compressive imaging of color images},
+  booktitle    = {2009 IEEE International Conference on Acoustics, Speech and Signal Processing},
+  year         = {2009},
+  pages        = {1261--1264},
+  organization = {IEEE},
+}
+
+@Article{Watts2014,
+  author    = {Watts, Claire M and Shrekenhamer, David and Montoya, John and Lipworth, Guy and Hunt, John and Sleasman, Timothy and Krishna, Sanjay and Smith, David R and Padilla, Willie J},
+  title     = {Terahertz compressive imaging with metamaterial spatial light modulators},
+  journal   = {Nature Photonics},
+  year      = {2014},
+  volume    = {8},
+  number    = {8},
+  pages     = {605},
+  publisher = {Nature Publishing Group},
+}
+
+@Article{Baraniuk2008,
+  author    = {Baraniuk, Richard G and Candes, Emmanuel and Nowak, Robert and Vetterli, Martin},
+  title     = {Compressive sampling [from the guest editors]},
+  journal   = {IEEE Signal Processing Magazine},
+  year      = {2008},
+  volume    = {25},
+  number    = {2},
+  pages     = {12--13},
+  publisher = {IEEE},
+}
+
+@InProceedings{Luo2009,
+  author       = {Luo, Chong and Wu, Feng and Sun, Jun and Chen, Chang Wen},
+  title        = {Compressive data gathering for large-scale wireless sensor networks},
+  booktitle    = {Proceedings of the 15th annual international conference on Mobile computing and networking},
+  year         = {2009},
+  pages        = {145--156},
+  organization = {ACM},
+}
+
+@InProceedings{Havary-Nassab2010,
+  author       = {Havary-Nassab, Veria and Hassan, Sadiq and Valaee, Shahrokh},
+  title        = {Compressive detection for wide-band spectrum sensing},
+  booktitle    = {2010 IEEE International Conference on Acoustics, Speech and Signal Processing},
+  year         = {2010},
+  pages        = {3094--3097},
+  organization = {IEEE},
+}
+
+@InProceedings{Vasanawala2011,
+  author    = {S. {Vasanawala} and M. {Murphy} and M. {Alley} and P. {Lai} and K. {Keutzer} and J. {Pauly} and M. {Lustig}},
+  title     = {Practical parallel imaging compressed sensing {MRI}: Summary of two years of experience in accelerating body {MRI} of pediatric patients},
+  booktitle = {Proc. IEEE Int. Symp. Biomedical Imaging: From Nano to Macro},
+  year      = {2011},
+  pages     = {1039--1043},
+  month     = mar,
+  doi       = {10.1109/ISBI.2011.5872579},
+  issn      = {1945-8452},
+  keywords  = {biomedical MRI, coprocessors, image reconstruction, iterative methods, medical image processing, multiprocessing systems, paediatrics, parallel processing, parallel imaging compressed sensing MRI, accelerating body MRI, paediatric patients, paediatric body imaging, 3D spoiled gradient echo, Poisson disc random undersampling, ℓ1-SPIRiT, iterative autocalibrating parallel imaging reconstruction algorithm, wavelet domain data consistency, wavelet domain joint sparsity, on line parallelized implementation, multicore CPU, general purpose graphics processors, GPGPU, 3D image reconstruction, Image reconstruction, Coils, Compressed sensing, Magnetic resonance imaging, Acceleration, Three dimensional displays, Compressed Sensing, Parallel Imaging, SPIRiT, Pediatric MRI},
+}
+
+@Article{Murphy2012,
+  author   = {M. {Murphy} and M. {Alley} and J. {Demmel} and K. {Keutzer} and S. {Vasanawala} and M. {Lustig}},
+  title    = {Fast$\ell_1$-SPIRiT Compressed Sensing Parallel Imaging {MRI}: Scalable Parallel Implementation and Clinically Feasible Runtime},
+  journal  = {IEEE Transactions on Medical Imaging},
+  year     = {2012},
+  volume   = {31},
+  number   = {6},
+  pages    = {1250--1262},
+  month    = jun,
+  issn     = {0278-0062},
+  doi      = {10.1109/TMI.2012.2188039},
+  keywords = {biomedical MRI, calibration, compressed sensing, image reconstruction, image sequences, iterative methods, medical image processing, optimisation, wavelet transforms, compressed sensing, autocalibrating parallel imaging, MRI, l1-SPIRiT, cross-channel joint sparsity, iterative soft-thresholding, self-consistent parallel imaging, imaging reconstructions, multiGPU systems, multicore CPU, software optimization, parallelization, 3DFT spoiled gradient echo sequence, Poisson-disc undersampling, Image reconstruction, Imaging, Coils, Runtime, Calibration, Compressed sensing, Acceleration, Autocalibrating parallel imaging, compressed sensing, general-purpose computing on graphics processing unit (GPGPU), parallel computing, self-consistent parallel imaging (SPIRiT), Algorithms, Data Compression, Feasibility Studies, Humans, Image Enhancement, Image Interpretation, Computer-Assisted, Magnetic Resonance Imaging, Pattern Recognition, Automated, Reproducibility of Results, Sensitivity and Specificity, Wavelet Analysis},
+}
+
+@InProceedings{Kim2007,
+  author    = {S. {Kim} and K. {Koh} and M. {Lustig} and S. {Boyd}},
+  title     = {An Efficient Method for Compressed Sensing},
+  booktitle = {Proc. IEEE Int. Conf. Image Processing},
+  year      = {2007},
+  volume    = {3},
+  pages     = {III - 117-III - 120},
+  month     = sep,
+  doi       = {10.1109/ICIP.2007.4379260},
+  issn      = {1522-4880},
+  keywords  = {conjugate gradient methods, signal sampling, compressed sensing, compressive sampling, signal recovery, interior-point method, preconditioned conjugate gradient method, medical resonance imaging, Compressed sensing, Sampling methods, Quadratic programming, Optimization methods, Gradient methods, Biomedical imaging, Magnetic resonance imaging, Vectors, Reconstruction algorithms, Least squares methods, compressed sensing, compressive sampling, l1 regularization, interior-point methods, preconditioned conjugate gradients},
+}
+
+@Article{Lustig2008,
+  author   = {M. {Lustig} and D. L. {Donoho} and J. M. {Santos} and J. M. {Pauly}},
+  title    = {Compressed Sensing {MRI}},
+  journal  = {IEEE Signal Processing Magazine},
+  year     = {2008},
+  volume   = {25},
+  number   = {2},
+  pages    = {72--82},
+  month    = mar,
+  issn     = {1053-5888},
+  doi      = {10.1109/MSP.2007.914728},
+  keywords = {biomedical MRI, image reconstruction, medical image processing, reviews, compressed sensing, MRI, review, interference cancellation, image reconstruction, magnetic resonance imaging, Compressed sensing, Magnetic resonance imaging, Magnetization, Image reconstruction, Image coding, Protons, Radio frequency, Encoding, Biomedical imaging, Wavelet transforms},
+}
+
+@InProceedings{Shibata2016,
+  author    = {M. {Shibata} and N. {Inamuro} and T. {Ijiri} and A. {Hirabayashi}},
+  title     = {High accuracy reconstruction algorithm for CS-{MRI} using SDMM},
+  booktitle = {Proc. Asia-Pacific Signal and Information Processing Association Annual Summit and Conf. (APSIPA)},
+  year      = {2016},
+  pages     = {1--6},
+  month     = dec,
+  doi       = {10.1109/APSIPA.2016.7820788},
+  keywords  = {biomedical MRI, compressed sensing, conjugate gradient methods, convex programming, eigenvalues and eigenfunctions, image reconstruction, matrix algebra, medical image processing, minimisation, eigenvalue decompositions, image size, transformation matrix size, simultaneous direction method of multipliers, nonlinear conjugate gradient algorithm, nondifferentiable term approximations, total variation, transform coefficients, ℓ1-norm, cost function minimization, convex optimization, compressed sensing magnetic resonance imaging, SDMM, CS-MRI, High accuracy reconstruction algorithm, Magnetic resonance imaging, Image reconstruction, Encoding, Cost function, Matrix converters, Approximation algorithms, Transforms},
+}
+
+@Article{Cukur2011,
+  author   = {T. {Cukur} and M. {Lustig} and E. U. {Saritas} and D. G. {Nishimura}},
+  title    = {Signal Compensation and Compressed Sensing for Magnetization-Prepared MR Angiography},
+  journal  = {IEEE Transactions on Medical Imaging},
+  year     = {2011},
+  volume   = {30},
+  number   = {5},
+  pages    = {1017--1027},
+  month    = may,
+  issn     = {0278-0062},
+  doi      = {10.1109/TMI.2011.2116123},
+  keywords = {biomedical MRI, magnetisation, medical image processing, noise, signal compensation, compressed sensing, magnetization-prepared MR angiography, magnetization-prepared acquisitions, magnetic resonance imaging, high-frequency data, sparsity-based nonlinear reconstruction, high-frequency noise, k-space samples, undersampled compressed-sensing acquisitions, noncontrast-enhanced flow-independent angiography, nonlinear reconstruction, Muscles, Blood, Magnetization, Image reconstruction, Magnetic resonance imaging, Transient analysis, Noise, Angiography, compensation, compressed sensing, magnetic resonance imaging (MRI), magnetization preparation, signal decay, Angiography, Computer Simulation, Humans, Leg, Leg, Magnetic Resonance Imaging, Magnetic Resonance Imaging, Phantoms, Imaging, Signal Processing, Computer-Assisted},
+}
+
+@InProceedings{Qu2010,
+  author    = {X. {Qu} and X. {Cao} and D. {Guo} and C. {Hu} and Z. {Chen}},
+  title     = {Compressed sensing {MRI} with combined sparsifying transforms and smoothed l0norm minimization},
+  booktitle = {Proc. Speech and Signal Processing 2010 IEEE Int. Conf. Acoustics},
+  year      = {2010},
+  pages     = {626--629},
+  month     = mar,
+  doi       = {10.1109/ICASSP.2010.5495174},
+  issn      = {2379-190X},
+  keywords  = {biomedical MRI, data compression, image coding, medical image processing, magnetic resonance imaging, compressed sensing MRI, sparsifying transforms, overcomplete sparse decomposition, image quality, smoothed l0norm minimization, Compressed sensing, Magnetic resonance imaging, Image reconstruction, Wavelet transforms, Dictionaries, Noise measurement, Image quality, Image sampling, Software engineering, Physics, Sparse decomposition, compressed sensing, MRI, medical imaging, multiscale transform},
+}
+
+@Article{Natarajan1995,
+  author    = {Natarajan, Balas Kausik},
+  title     = {Sparse approximate solutions to linear systems},
+  journal   = {SIAM journal on computing},
+  year      = {1995},
+  volume    = {24},
+  number    = {2},
+  pages     = {227--234},
+  publisher = {SIAM},
+}
+
+@InCollection{Krahmer2017,
+  author    = {Krahmer, Felix and Kruschel, Christian and Sandbichler, Michael},
+  title     = {Total variation minimization in compressed sensing},
+  booktitle = {Compressed Sensing and its Applications},
+  publisher = {Springer},
+  year      = {2017},
+  pages     = {333--358},
+}
+
+@Article{Cutcliffe1988,
+  author    = {Cutcliffe, Stephen H and Roysdon, Christine M and Adams, Judith A},
+  title     = {Current Bibliography in the History of Technology (1986)},
+  journal   = {Technology and Culture},
+  year      = {1988},
+  volume    = {29},
+  number    = {2},
+  pages     = {338},
+  publisher = {Wayne State University Press},
+}
+
+@Article{Felmlee1989,
+  author  = {Felmlee, JP and Morin, RL and Salutz, JR and Lund, GB},
+  title   = {Magnetic resonance imaging phase encoding: a pictorial essay.},
+  journal = {radiographics},
+  year    = {1989},
+  volume  = {9},
+  number  = {4},
+  pages   = {717--722},
+}
+
+@Misc{stat,
+  author       = {Eurostat},
+  title        = {Number of magnetic resonance imaging (MRI) scan examinations in Germany from 2008 to 2015 (in 1,000)},
+  howpublished = {Eurostat},
+  month        = aug,
+  year         = {2018},
+  url          = {https://www.statista.com/statistics/863499/magnetic-resonance-imaging-scan-examinations-in-germany/},
+}
+
+@Article{Lisanti2009,
+  author    = {Lisanti, Christopher J and Douglas, David B},
+  title     = {Effects of breath-hold and cardiac cycle on the MRI appearance of the aorta and inferior vena cava in T2 abdominal imaging},
+  journal   = {American Journal of Roentgenology},
+  year      = {2009},
+  volume    = {192},
+  number    = {5},
+  pages     = {1348--1358},
+  publisher = {Am Roentgen Ray Soc},
+}
+
+@Misc{ab,
+  author       = {Sklearn},
+  title        = {SSIM implementation},
+  howpublished = {Online},
+  month        = may,
+  year         = {2019},
+  note         = {Available at \url{https://github.com/scikit-image/scikit-image/blob/master/skimage/measure/_structural_similarity.py}},
+}
+
+@Misc{Encoding2019,
+  author    = {Sarah Abdulla},
+  title     = {MRI spatial localisation},
+  month     = jul,
+  year      = {2019},
+  note      = {Available at \url{https://www.radiologycafe.com/images/physics/mri-spatial-localisation@2x.png}},
+  timestamp = {2019-07-08},
+  url       = {https://www.radiologycafe.com/images/physics/mri-spatial-localisation@2x.png},
+}
+
+@Article{Zeng2015,
+  author    = {Zeng, Tao and Li, Rongjian and Mukkamala, Ravi and Ye, Jieping and Ji, Shuiwang},
+  title     = {Deep convolutional neural networks for annotating gene expression patterns in the mouse brain},
+  journal   = {BMC bioinformatics},
+  year      = {2015},
+  volume    = {16},
+  number    = {1},
+  pages     = {147},
+  publisher = {BioMed Central},
+}
+
+@InProceedings{Fakoor2013,
+  author       = {Fakoor, Rasool and Ladhak, Faisal and Nazi, Azade and Huber, Manfred},
+  title        = {Using deep learning to enhance cancer diagnosis and classification},
+  booktitle    = {Proceedings of the international conference on machine learning},
+  year         = {2013},
+  volume       = {28},
+  organization = {ACM New York, USA},
+}
+
+@Article{Cox1999,
+  author        = {Cox, Robert W and Jesmanowicz, Andrzej},
+  title         = {Real-time 3D image registration for functional MRI},
+  journal       = {Magnetic Resonance in Medicine: An Official Journal of the International Society for Magnetic Resonance in Medicine},
+  year          = {1999},
+  volume        = {42},
+  number        = {6},
+  pages         = {1014--1018},
+  __markedentry = {[fabianhielscher:]},
+  publisher     = {Wiley Online Library},
+}
+
+@Article{Mamoshina2016,
+  author        = {Mamoshina, Polina and Vieira, Armando and Putin, Evgeny and Zhavoronkov, Alex},
+  title         = {Applications of deep learning in biomedicine},
+  journal       = {Molecular pharmaceutics},
+  year          = {2016},
+  volume        = {13},
+  number        = {5},
+  pages         = {1445--1454},
+  __markedentry = {[fabianhielscher:6]},
+  publisher     = {ACS Publications},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
