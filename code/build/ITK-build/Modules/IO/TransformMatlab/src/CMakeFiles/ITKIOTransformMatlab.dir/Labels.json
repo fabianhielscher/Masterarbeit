@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/TransformMatlab/src/itkMatlabTransformIO.cxx"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/TransformMatlab/src/itkMatlabTransformIOFactory.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOTransformMatlab"
+		],
+		"name" : "ITKIOTransformMatlab"
+	}
+}

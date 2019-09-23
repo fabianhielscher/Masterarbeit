@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Video/IO/src/itkFileListVideoIO.cxx"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Video/IO/src/itkFileListVideoIOFactory.cxx"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Video/IO/src/itkVideoIOBase.cxx"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Video/IO/src/itkVideoIOFactory.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKVideoIO"
+		],
+		"name" : "ITKVideoIO"
+	}
+}

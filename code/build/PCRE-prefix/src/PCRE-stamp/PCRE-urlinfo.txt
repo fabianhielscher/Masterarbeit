@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/Users/fabianhielscher/Dev/Masterarbeit/code/build/ExternalData/.ExternalSource/pcre-8.40.tar.gz'
+tag='MD5=890c808122bd90f398e6bc40ec862102'

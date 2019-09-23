@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/virtualenv"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/virtualenv.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/virtualenv-complete.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/virtualenv-prefix/src/virtualenv-stamp/virtualenv-install.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/virtualenv-prefix/src/virtualenv-stamp/virtualenv-mkdir.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/virtualenv-prefix/src/virtualenv-stamp/virtualenv-download.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/virtualenv-prefix/src/virtualenv-stamp/virtualenv-update.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/virtualenv-prefix/src/virtualenv-stamp/virtualenv-patch.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/virtualenv-prefix/src/virtualenv-stamp/virtualenv-configure.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/virtualenv-prefix/src/virtualenv-stamp/virtualenv-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"virtualenv"
+		],
+		"name" : "virtualenv"
+	}
+}

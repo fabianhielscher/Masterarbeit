@@ -1,0 +1,13 @@
+set(ITKMetaIO_LOADED 1)
+set(ITKMetaIO_ENABLE_SHARED "0")
+set(ITKMetaIO_DEPENDS "ITKZLIB")
+set(ITKMetaIO_PUBLIC_DEPENDS "ITKZLIB")
+set(ITKMetaIO_TRANSITIVE_DEPENDS "ITKZLIB")
+set(ITKMetaIO_PRIVATE_DEPENDS "")
+set(ITKMetaIO_LIBRARIES "ITKMetaIO")
+set(ITKMetaIO_INCLUDE_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/Modules/ThirdParty/MetaIO/src/MetaIO/src;/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/MetaIO/src/MetaIO/src")
+set(ITKMetaIO_LIBRARY_DIRS "")
+set(ITKMetaIO_RUNTIME_LIBRARY_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/lib")
+set(ITKMetaIO_TARGETS_FILE "")
+set(ITKMetaIO_FACTORY_NAMES "")
+

@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/Expat/src/expat/xmlparse.c"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/Expat/src/expat/xmltok.c"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/Expat/src/expat/xmlrole.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKExpat"
+		],
+		"name" : "ITKEXPAT"
+	}
+}

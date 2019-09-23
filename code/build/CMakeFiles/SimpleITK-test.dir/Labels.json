@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/SimpleITK-test"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/SimpleITK-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SimpleITK"
+		],
+		"name" : "SimpleITK-test"
+	}
+}

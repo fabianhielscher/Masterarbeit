@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOGIPL
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/GIPL/src/itkGiplImageIOFactory.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/GIPL/src/itkGiplImageIO.cxx

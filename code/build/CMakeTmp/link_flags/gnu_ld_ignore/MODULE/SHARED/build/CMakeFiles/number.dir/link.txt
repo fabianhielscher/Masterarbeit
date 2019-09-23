@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -dynamiclib -Wl,-headerpad_max_install_names  -o libnumber.dylib -install_name /Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeTmp/link_flags/gnu_ld_ignore/MODULE/SHARED/build/libnumber.dylib CMakeFiles/number.dir/number.c.o 

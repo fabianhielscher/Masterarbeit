@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/Modules/Core/Common/CMakeTmp/ITK_PRIVATE_DYNAMIC_CAST/base.cxx
+base.h
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/Modules/Core/Common/CMakeTmp/ITK_PRIVATE_DYNAMIC_CAST/base.h
+
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/Modules/Core/Common/CMakeTmp/ITK_PRIVATE_DYNAMIC_CAST/base.h
+

@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/MINC/src/itkMINCImageIO.cxx"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/MINC/src/itkMINCImageIOFactory.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOMINC"
+		],
+		"name" : "ITKIOMINC"
+	}
+}

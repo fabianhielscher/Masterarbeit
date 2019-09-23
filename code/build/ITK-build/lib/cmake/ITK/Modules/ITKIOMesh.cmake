@@ -1,0 +1,13 @@
+set(ITKIOMesh_LOADED 1)
+set(ITKIOMesh_ENABLE_SHARED "1")
+set(ITKIOMesh_DEPENDS "ITKDoubleConversion;ITKGIFTI;ITKIOImageBase;ITKMesh")
+set(ITKIOMesh_PUBLIC_DEPENDS "")
+set(ITKIOMesh_TRANSITIVE_DEPENDS "ITKMesh")
+set(ITKIOMesh_PRIVATE_DEPENDS "ITKDoubleConversion;ITKGIFTI;ITKIOImageBase")
+set(ITKIOMesh_LIBRARIES "ITKIOMesh")
+set(ITKIOMesh_INCLUDE_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/include")
+set(ITKIOMesh_LIBRARY_DIRS "")
+set(ITKIOMesh_RUNTIME_LIBRARY_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/lib")
+set(ITKIOMesh_TARGETS_FILE "")
+set(ITKIOMesh_FACTORY_NAMES "")
+

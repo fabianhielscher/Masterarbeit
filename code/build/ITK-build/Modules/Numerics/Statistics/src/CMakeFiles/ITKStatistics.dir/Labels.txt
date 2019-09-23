@@ -1,0 +1,14 @@
+# Target labels
+ ITKStatistics
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Statistics/src/itkProbabilityDistribution.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Statistics/src/itkDenseFrequencyContainer2.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Statistics/src/itkSparseFrequencyContainer2.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Statistics/src/itkChiSquareDistribution.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Statistics/src/itkGaussianDistribution.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Statistics/src/itkTDistribution.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Statistics/src/itkNormalVariateGenerator.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Statistics/src/itkDecisionRule.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Statistics/src/itkMaximumDecisionRule.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Statistics/src/itkMaximumRatioDecisionRule.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Statistics/src/itkMinimumDecisionRule.cxx

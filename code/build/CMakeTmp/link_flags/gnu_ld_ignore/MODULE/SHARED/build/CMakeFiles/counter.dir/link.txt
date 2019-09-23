@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -bundle -Wl,-headerpad_max_install_names -Wl,--unresolved-symbols=ignore-all -o counter.so CMakeFiles/counter.dir/counter.c.o 

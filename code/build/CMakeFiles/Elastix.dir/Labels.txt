@@ -1,0 +1,13 @@
+# Target labels
+ Elastix
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Elastix
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Elastix.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Elastix-complete.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Elastix-prefix/src/Elastix-stamp/Elastix-install.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Elastix-prefix/src/Elastix-stamp/Elastix-mkdir.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Elastix-prefix/src/Elastix-stamp/Elastix-download.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Elastix-prefix/src/Elastix-stamp/Elastix-update.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Elastix-prefix/src/Elastix-stamp/Elastix-patch.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Elastix-prefix/src/Elastix-stamp/Elastix-configure.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Elastix-prefix/src/Elastix-stamp/Elastix-build.rule

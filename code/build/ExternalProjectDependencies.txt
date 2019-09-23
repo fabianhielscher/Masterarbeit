@@ -1,0 +1,10 @@
+# External project dependencies
+ITK: 
+Swig: PCRE
+Elastix: 
+SimpleITKExamples: SimpleITK
+PCRE: 
+Lua: 
+GTest: 
+virtualenv: 
+SuperBuildSimpleITK: Lua;Swig;GTest;ITK;Elastix

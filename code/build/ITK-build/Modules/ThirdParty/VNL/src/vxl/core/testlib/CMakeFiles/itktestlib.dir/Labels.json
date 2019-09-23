@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_test.h"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_test.cxx"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_register.h"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_main.cxx"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_root_dir.h"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_root_dir.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKVNL"
+		],
+		"name" : "itktestlib"
+	}
+}

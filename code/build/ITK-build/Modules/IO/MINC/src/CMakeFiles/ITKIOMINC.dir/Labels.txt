@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOMINC
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/MINC/src/itkMINCImageIO.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/MINC/src/itkMINCImageIOFactory.cxx

@@ -1,0 +1,5 @@
+# Target labels
+ ITKMesh
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Core/Mesh/src/itkMeshRegion.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Core/Mesh/src/itkSimplexMeshGeometry.cxx

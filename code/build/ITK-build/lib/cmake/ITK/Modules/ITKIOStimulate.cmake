@@ -1,0 +1,13 @@
+set(ITKIOStimulate_LOADED 1)
+set(ITKIOStimulate_ENABLE_SHARED "1")
+set(ITKIOStimulate_DEPENDS "ITKIOImageBase")
+set(ITKIOStimulate_PUBLIC_DEPENDS "")
+set(ITKIOStimulate_TRANSITIVE_DEPENDS "")
+set(ITKIOStimulate_PRIVATE_DEPENDS "ITKIOImageBase")
+set(ITKIOStimulate_LIBRARIES "ITKIOStimulate")
+set(ITKIOStimulate_INCLUDE_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Stimulate/include")
+set(ITKIOStimulate_LIBRARY_DIRS "")
+set(ITKIOStimulate_RUNTIME_LIBRARY_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/lib")
+set(ITKIOStimulate_TARGETS_FILE "")
+set(ITKIOStimulate_FACTORY_NAMES "ImageIO::Stimulate")
+

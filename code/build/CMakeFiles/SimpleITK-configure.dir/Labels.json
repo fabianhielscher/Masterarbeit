@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/SimpleITK-configure"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/SimpleITK-configure.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/SimpleITK-prefix/src/SimpleITK-stamp/SimpleITK-configure.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/SimpleITK-prefix/src/SimpleITK-stamp/SimpleITK-update.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/SimpleITK-prefix/src/SimpleITK-stamp/SimpleITK-patch.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/SimpleITK-prefix/src/SimpleITK-stamp/SimpleITK-download.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/SimpleITK-prefix/src/SimpleITK-stamp/SimpleITK-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SimpleITK"
+		],
+		"name" : "SimpleITK-configure"
+	}
+}

@@ -1,0 +1,13 @@
+# Target labels
+ Lua
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Lua
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Lua.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Lua-complete.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-stamp/Lua-install.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-stamp/Lua-mkdir.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-stamp/Lua-download.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-stamp/Lua-update.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-stamp/Lua-patch.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-stamp/Lua-configure.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-stamp/Lua-build.rule

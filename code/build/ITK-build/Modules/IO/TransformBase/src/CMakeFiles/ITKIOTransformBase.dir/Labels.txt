@@ -1,0 +1,8 @@
+# Target labels
+ ITKIOTransformBase
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/TransformBase/src/itkCompositeTransformIOHelper.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/TransformBase/src/itkTransformFileReader.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/TransformBase/src/itkTransformFileWriterSpecializations.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/TransformBase/src/itkTransformIOBase.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/TransformBase/src/itkTransformIOFactory.cxx

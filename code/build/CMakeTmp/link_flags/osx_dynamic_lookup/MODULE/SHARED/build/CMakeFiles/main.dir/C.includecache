@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeTmp/link_flags/osx_dynamic_lookup/MODULE/SHARED/src/main.c
+stdlib.h
+-
+stdio.h
+-
+number.h
+-
+dlfcn.h
+-
+
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeTmp/link_flags/osx_dynamic_lookup/MODULE/SHARED/src/number.h
+

@@ -1,0 +1,39 @@
+# Target labels
+ ITKTIFF
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_aux.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_close.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_codec.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_compress.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_color.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_dir.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_dirinfo.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_dirread.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_dirwrite.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_dumpmode.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_error.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_extension.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_flush.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_getimage.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_luv.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_lzw.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_next.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_open.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_packbits.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_pixarlog.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_predict.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_print.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_read.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_strip.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_swab.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_tile.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_thunder.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_version.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_warning.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_write.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_zip.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_jpeg.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/TIFF/src/itktiff/tif_unix.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3sm.c
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3sm.c.rule

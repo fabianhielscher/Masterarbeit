@@ -1,0 +1,9 @@
+# Target labels
+ ITKIOGE
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/GE/src/itkGE5ImageIOFactory.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/GE/src/itkGEAdwImageIO.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/GE/src/itkGE4ImageIO.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/GE/src/itkGEAdwImageIOFactory.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/GE/src/itkGE5ImageIO.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/GE/src/itkGE4ImageIOFactory.cxx

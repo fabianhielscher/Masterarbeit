@@ -1,0 +1,13 @@
+set(ITKDICOMParser_LOADED 1)
+set(ITKDICOMParser_ENABLE_SHARED "0")
+set(ITKDICOMParser_DEPENDS "")
+set(ITKDICOMParser_PUBLIC_DEPENDS "")
+set(ITKDICOMParser_TRANSITIVE_DEPENDS "")
+set(ITKDICOMParser_PRIVATE_DEPENDS "")
+set(ITKDICOMParser_LIBRARIES "ITKDICOMParser")
+set(ITKDICOMParser_INCLUDE_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/Modules/ThirdParty/DICOMParser/src/DICOMParser;/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/DICOMParser/src/DICOMParser")
+set(ITKDICOMParser_LIBRARY_DIRS "")
+set(ITKDICOMParser_RUNTIME_LIBRARY_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/lib")
+set(ITKDICOMParser_TARGETS_FILE "")
+set(ITKDICOMParser_FACTORY_NAMES "")
+

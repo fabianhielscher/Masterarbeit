@@ -1,0 +1,13 @@
+set(ITKGDCM_LOADED 1)
+set(ITKGDCM_ENABLE_SHARED "0")
+set(ITKGDCM_DEPENDS "ITKExpat;ITKZLIB")
+set(ITKGDCM_PUBLIC_DEPENDS "ITKExpat;ITKZLIB")
+set(ITKGDCM_TRANSITIVE_DEPENDS "ITKExpat;ITKZLIB")
+set(ITKGDCM_PRIVATE_DEPENDS "")
+set(ITKGDCM_LIBRARIES "gdcmDICT;gdcmMSFF")
+set(ITKGDCM_INCLUDE_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/Modules/ThirdParty/GDCM;/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/Modules/ThirdParty/GDCM/src/gdcm/Source/Common;/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/GDCM/src/gdcm/Source/MediaStorageAndFileFormat;/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/GDCM/src/gdcm/Source/DataDictionary;/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/GDCM/src/gdcm/Source/Common;/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/GDCM/src/gdcm/Source/InformationObjectDefinition;/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/GDCM/src/gdcm/Source/MessageExchangeDefinition;/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition")
+set(ITKGDCM_LIBRARY_DIRS "")
+set(ITKGDCM_RUNTIME_LIBRARY_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/lib")
+set(ITKGDCM_TARGETS_FILE "")
+set(ITKGDCM_FACTORY_NAMES "")
+

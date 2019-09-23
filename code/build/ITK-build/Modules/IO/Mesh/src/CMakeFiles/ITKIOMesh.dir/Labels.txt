@@ -1,0 +1,21 @@
+# Target labels
+ ITKIOMesh
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkMeshFileReaderException.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkMeshFileWriterException.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkBYUMeshIO.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkBYUMeshIOFactory.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkFreeSurferAsciiMeshIO.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkFreeSurferAsciiMeshIOFactory.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkFreeSurferBinaryMeshIO.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkFreeSurferBinaryMeshIOFactory.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkGiftiMeshIO.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkGiftiMeshIOFactory.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkMeshIOBase.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkMeshIOFactory.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkOBJMeshIO.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkOBJMeshIOFactory.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkOFFMeshIO.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkOFFMeshIOFactory.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkVTKPolyDataMeshIO.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/Mesh/src/itkVTKPolyDataMeshIOFactory.cxx

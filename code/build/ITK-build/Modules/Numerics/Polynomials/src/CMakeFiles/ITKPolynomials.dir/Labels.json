@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Polynomials/src/itkMultivariateLegendrePolynomial.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKPolynomials"
+		],
+		"name" : "ITKPolynomials"
+	}
+}

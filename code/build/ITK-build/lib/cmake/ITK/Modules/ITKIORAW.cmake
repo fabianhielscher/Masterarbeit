@@ -1,0 +1,13 @@
+set(ITKIORAW_LOADED 1)
+set(ITKIORAW_ENABLE_SHARED "1")
+set(ITKIORAW_DEPENDS "ITKIOImageBase")
+set(ITKIORAW_PUBLIC_DEPENDS "")
+set(ITKIORAW_TRANSITIVE_DEPENDS "")
+set(ITKIORAW_PRIVATE_DEPENDS "ITKIOImageBase")
+set(ITKIORAW_LIBRARIES "ITKIOImageBase")
+set(ITKIORAW_INCLUDE_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/RAW/include")
+set(ITKIORAW_LIBRARY_DIRS "")
+set(ITKIORAW_RUNTIME_LIBRARY_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/lib")
+set(ITKIORAW_TARGETS_FILE "")
+set(ITKIORAW_FACTORY_NAMES "")
+

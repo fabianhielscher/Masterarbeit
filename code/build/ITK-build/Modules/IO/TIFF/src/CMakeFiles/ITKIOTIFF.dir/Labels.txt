@@ -1,0 +1,6 @@
+# Target labels
+ ITKIOTIFF
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/TIFF/src/itkTIFFImageIO.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/TIFF/src/itkTIFFReaderInternal.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/TIFF/src/itkTIFFImageIOFactory.cxx

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Lua"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Lua.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Lua-complete.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-stamp/Lua-install.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-stamp/Lua-mkdir.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-stamp/Lua-download.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-stamp/Lua-update.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-stamp/Lua-patch.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-stamp/Lua-configure.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-stamp/Lua-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Lua"
+		],
+		"name" : "Lua"
+	}
+}

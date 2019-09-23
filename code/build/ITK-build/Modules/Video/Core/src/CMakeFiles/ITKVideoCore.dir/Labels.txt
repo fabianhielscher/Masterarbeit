@@ -1,0 +1,6 @@
+# Target labels
+ ITKVideoCore
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Video/Core/src/itkTemporalRegion.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Video/Core/src/itkTemporalDataObject.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Video/Core/src/itkTemporalProcessObject.cxx

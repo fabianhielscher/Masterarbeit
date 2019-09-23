@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKReview-4.13.a  CMakeFiles/ITKReview.dir/itkJPEG2000ImageIO.cxx.o CMakeFiles/ITKReview.dir/itkJPEG2000ImageIOFactory.cxx.o CMakeFiles/ITKReview.dir/itkVoxBoCUBImageIO.cxx.o CMakeFiles/ITKReview.dir/itkVoxBoCUBImageIOFactory.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKReview-4.13.a

@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/Users/fabianhielscher/Dev/Masterarbeit/code/build/ExternalData/.ExternalSource/virtualenv-15.1.0.tar.gz'
+tag='MD5=44e19f4134906fe2d75124427dc9b716'

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Elastix"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Elastix.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Elastix-complete.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Elastix-prefix/src/Elastix-stamp/Elastix-install.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Elastix-prefix/src/Elastix-stamp/Elastix-mkdir.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Elastix-prefix/src/Elastix-stamp/Elastix-download.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Elastix-prefix/src/Elastix-stamp/Elastix-update.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Elastix-prefix/src/Elastix-stamp/Elastix-patch.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Elastix-prefix/src/Elastix-stamp/Elastix-configure.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Elastix-prefix/src/Elastix-stamp/Elastix-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Elastix"
+		],
+		"name" : "Elastix"
+	}
+}

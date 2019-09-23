@@ -1,0 +1,9 @@
+# Target labels
+ ITKIOXML
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/XML/src/itkXMLFile.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/XML/src/itkDOMNode.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/XML/src/itkDOMNodeXMLReader.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/XML/src/itkDOMNodeXMLWriter.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/XML/src/itkStringTools.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/XML/src/itkFancyString.cxx

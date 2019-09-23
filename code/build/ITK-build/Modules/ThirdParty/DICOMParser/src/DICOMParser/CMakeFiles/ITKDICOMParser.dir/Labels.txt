@@ -1,0 +1,8 @@
+# Target labels
+ ITKDICOMParser
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMSource.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMBuffer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMFile.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMParser.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMAppHelper.cxx

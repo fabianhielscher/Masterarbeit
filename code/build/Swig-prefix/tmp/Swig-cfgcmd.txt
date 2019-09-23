@@ -1,0 +1,1 @@
+cmd='/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake;-P;/Users/fabianhielscher/Dev/Masterarbeit/code/build/swig_configure_step.cmake'

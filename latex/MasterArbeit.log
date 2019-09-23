@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  8 AUG 2019 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.25)  29 AUG 2019 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1183,12 +1183,26 @@ Class scrreprt Warning: \float@addtolists detected!
 
 ]
 Chapter 2.
-[5] [6
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 15.55188pt on input line 209.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 210.
+[5]
+LaTeX Font Info:    Try loading font information for OMS+qtm on input line 236.
+
+LaTeX Font Info:    No file OMSqtm.fd. on input line 236.
 
 
-]
+LaTeX Font Warning: Font shape `OMS/qtm/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 236.
+
+[6]
 Chapter 3.
-[7] [8
+[7
+
+
+] [8
 
 
 ]
@@ -1201,25 +1215,34 @@ Chapter 5.
 \tf@thm=\write4
 \openout4 = `MasterArbeit.thm'.
 
-[11] (./MasterArbeit.aux) ) 
+[11] (./MasterArbeit.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 11785 strings out of 493089
- 183964 string characters out of 6134841
+ 11828 strings out of 493089
+ 184426 string characters out of 6134841
  378090 words of memory out of 5000000
- 14957 multiletter control sequences out of 15000+600000
- 54252 words of font info for 82 fonts, out of 8000000 for 9000
+ 14971 multiletter control sequences out of 15000+600000
+ 72654 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,11n,54p,822b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/
-base/8r.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.e
-nc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on MasterArbeit.pdf (13 pages, 57980 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}{/usr/l
+ocal/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-qx.enc}{/usr/local/texl
+ive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2015/texmf-
+dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/local/texlive/2015/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/tex-gyre/qtmri.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/txfonts/rtxmi.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txf
+onts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/bookman/ubkd8
+a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on MasterArbeit.pdf (13 pages, 95398 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23558 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 24582 words of extra memory for PDF output out of 24883 (max. 10000000)
 

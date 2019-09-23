@@ -1,0 +1,40 @@
+Checking if C++11 required try_compile failed with the following output:
+Change Dir: /Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d400/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7d400.dir/build.make CMakeFiles/cmTC_7d400.dir/build
+Building CXX object CMakeFiles/cmTC_7d400.dir/sitk_check_cxx11_required.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_7d400.dir/sitk_check_cxx11_required.cxx.o -c /Users/fabianhielscher/Dev/Masterarbeit/code/SimpleElastix/CMake/sitk_check_cxx11_required.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/SimpleElastix/CMake/sitk_check_cxx11_required.cxx:5:2: error: "libc++ is not supported without C++11"
+#error "libc++ is not supported without C++11"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7d400.dir/sitk_check_cxx11_required.cxx.o] Error 1
+make: *** [cmTC_7d400/fast] Error 2
+
+Performing Test Weak Link MODULE -> SHARED (gnu_ld_ignore) failed with the following output:
+BUILD
+-----
+Change Dir: /Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeTmp/link_flags/gnu_ld_ignore/MODULE/SHARED/build
+
+Run Build Command(s):/usr/bin/make 
+Scanning dependencies of target number
+[ 16%] Building C object CMakeFiles/number.dir/number.c.o
+[ 33%] Linking C shared library libnumber.dylib
+[ 33%] Built target number
+Scanning dependencies of target main
+[ 50%] Building C object CMakeFiles/main.dir/main.c.o
+[ 66%] Linking C executable main
+[ 66%] Built target main
+Scanning dependencies of target counter
+[ 83%] Building C object CMakeFiles/counter.dir/counter.c.o
+[100%] Linking C shared module counter.so
+ld: unknown option: --unresolved-symbols=ignore-all
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [counter.so] Error 1
+make[1]: *** [CMakeFiles/counter.dir/all] Error 2
+make: *** [all] Error 2
+
+RUN
+---
+

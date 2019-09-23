@@ -1,0 +1,8 @@
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-build/CMakeFiles/install/strip.dir
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-build/CMakeFiles/install.dir
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-build/CMakeFiles/list_install_components.dir
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-build/CMakeFiles/rebuild_cache.dir
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-build/CMakeFiles/edit_cache.dir
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-build/CMakeFiles/install/local.dir
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-build/CMakeFiles/luaexec.dir
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Lua-prefix/src/Lua-build/CMakeFiles/lua.dir

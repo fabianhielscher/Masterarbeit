@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Filtering/BiasCorrection/src/itkCompositeValleyFunction.cxx"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Filtering/BiasCorrection/src/itkCacheableScalarFunction.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKBiasCorrection"
+		],
+		"name" : "ITKBiasCorrection"
+	}
+}

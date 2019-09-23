@@ -1,0 +1,9 @@
+libdir=/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-prefix/lib
+includedir=/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-prefix/include
+
+Name: gtest
+Description: GoogleTest (without main() function)
+Version: 1.9.0
+URL: https://github.com/google/googletest
+Libs: -L${libdir} -lgtest 
+Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=1 

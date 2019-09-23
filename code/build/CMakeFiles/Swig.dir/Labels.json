@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Swig"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Swig.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Swig-complete.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Swig-prefix/src/Swig-stamp/Swig-install.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Swig-prefix/src/Swig-stamp/Swig-mkdir.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Swig-prefix/src/Swig-stamp/Swig-download.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Swig-prefix/src/Swig-stamp/Swig-update.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Swig-prefix/src/Swig-stamp/Swig-patch.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Swig-prefix/src/Swig-stamp/Swig-configure.rule"
+		},
+		{
+			"file" : "/Users/fabianhielscher/Dev/Masterarbeit/code/build/Swig-prefix/src/Swig-stamp/Swig-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Swig"
+		],
+		"name" : "Swig"
+	}
+}

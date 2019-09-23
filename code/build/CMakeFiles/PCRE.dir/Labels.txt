@@ -1,0 +1,13 @@
+# Target labels
+ PCRE
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/PCRE
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/PCRE.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/PCRE-complete.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/PCRE-prefix/src/PCRE-stamp/PCRE-install.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/PCRE-prefix/src/PCRE-stamp/PCRE-mkdir.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/PCRE-prefix/src/PCRE-stamp/PCRE-download.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/PCRE-prefix/src/PCRE-stamp/PCRE-update.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/PCRE-prefix/src/PCRE-stamp/PCRE-patch.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/PCRE-prefix/src/PCRE-stamp/PCRE-configure.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/PCRE-prefix/src/PCRE-stamp/PCRE-build.rule

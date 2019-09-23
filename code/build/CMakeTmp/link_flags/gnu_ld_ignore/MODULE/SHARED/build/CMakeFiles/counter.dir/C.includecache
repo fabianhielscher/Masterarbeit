@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeTmp/link_flags/gnu_ld_ignore/MODULE/SHARED/src/counter.c
+number.h
+-
+
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeTmp/link_flags/gnu_ld_ignore/MODULE/SHARED/src/number.h
+

@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/Users/fabianhielscher/Dev/Masterarbeit/code/build/ExternalData/.ExternalSource/swig-3.0.12.tar.gz'
+tag='MD5=82133dfa7bba75ff9ad98a7046be687c'

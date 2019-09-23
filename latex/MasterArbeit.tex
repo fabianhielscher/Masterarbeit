@@ -206,12 +206,44 @@ twoside, BCOR10mm, 12pt, DIV13,headinclude, footexclude, final, abstracton, open
 %		\end{center}
 %	\end{table}
 	\chapter{Theory}
+	\section{Parametric image registration}
+		\subsection{Landmark-based registration}
+		\subsection{Principal axes-based registration}
+		\subsection{Optimal linear registration}
+			\subsubsection{Intensity-based registration}
+			\subsubsection{Correlation-based registration}
+			\subsubsection{Mutual information-based registration}
+	\section{Non-parametric image registration}
+		\subsection{Elastic registration}
+		\subsection{Fluid registration}
+		\subsection{Diffusion registration}	
+		\subsection{Curvature registration}	
+	\section{Reinforcement learning}
+	In Reinforcement Learning, an agent is supposed to learn a specific behavior by trial-anderror. The agent interacts with its environment to collect experiences. Figure 2.6 illustrates the basic concept behind Reinforcement Learning. At each time step t = 1, 2, 3, ...
+	the agent is in a certain state $s \in \mathcal{S}$ and takes one of the possible available actions
+	$a \in \mathcal{A}(s)$. The action changes the environment and the agent ends up in a new state
+	st+1. Furthermore, it receives a reward Rt+1 from the environment that serves as a feedback about how good it was to take action at
+	in state st
 	
+	\subsection{Markov Decision Process}
+	The Markov Assumption assumes an independence of past and future states, meaning
+	that the state and the behavior of the environment at time step t are not 
+	influenced by the past agent-environment interactions
+	$a_1, ..., a_{t-1}$
+	If the RL-task can fulfill the Markov Assumption, it can be formulated as five-tuple Markov Decision Process $(\mathcal{S},\mathcal{A}, \mathcal{P}_{s,s'}^a, \mathcal{R}_{s,s'}^a, \gamma)$
+	
+	\begin{itemize}
+		\item $\mathcal{S}$: set of states
+		\item $\mathcal{A}$: set of actions. $\mathcal{A}(s)$ is the best action in state s.
+		\item $\mathcal{P}_{s,s'}^a$: Transition probabilities. It is the probability of the	transition from s to s' when taking action a in state s at time step t.
+		\item $\mathcal{R}_{s,s'}^a$: Reward probabilities. It defines the immediate reward the agent receives after the transition from s to s'
+		\item  $\gamma$: Discount factor.$ \gamma \in [0, 1]$ for computing the discounted expected return
+	\end{itemize}
 	
 	\chapter{Experimental Setup}
-	
+			
 	\chapter{Discussion}
-	
+		
 	
 	\chapter{Conclusion}
 	

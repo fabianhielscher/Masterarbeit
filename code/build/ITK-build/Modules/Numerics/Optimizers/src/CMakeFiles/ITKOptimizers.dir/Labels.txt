@@ -1,0 +1,34 @@
+# Target labels
+ ITKOptimizers
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkNonLinearOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkMultipleValuedCostFunction.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkSingleValuedCostFunction.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkConjugateGradientOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkRegularStepGradientDescentOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkLBFGSOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkExhaustiveOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkLevenbergMarquardtOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkSingleValuedNonLinearVnlOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkQuaternionRigidTransformGradientDescentOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkSPSAOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkSingleValuedVnlCostFunctionAdaptor.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkMultipleValuedNonLinearVnlOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkPowellOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkVersorRigid3DTransformOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkVersorTransformOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkOnePlusOneEvolutionaryOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkMultipleValuedNonLinearOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkLBFGSBOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkCumulativeGaussianOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkAmoebaOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkCumulativeGaussianCostFunction.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkFRPROptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkGradientDescentOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkSingleValuedNonLinearOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkRegularStepGradientDescentBaseOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkMultipleValuedVnlCostFunctionAdaptor.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkParticleSwarmOptimizerBase.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkParticleSwarmOptimizer.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Numerics/Optimizers/src/itkInitializationBiasedParticleSwarmOptimizer.cxx

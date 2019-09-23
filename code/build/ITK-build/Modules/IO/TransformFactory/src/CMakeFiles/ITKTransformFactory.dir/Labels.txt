@@ -1,0 +1,6 @@
+# Target labels
+ ITKTransformFactory
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/TransformFactory/src/itkTransformFactoryBase.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/TransformFactory/src/itkTransformFactoryBaseRegisterFloatParameters.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/TransformFactory/src/itkTransformFactoryBaseRegisterDoubleParameters.cxx

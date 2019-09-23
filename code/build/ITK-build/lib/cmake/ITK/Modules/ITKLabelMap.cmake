@@ -1,0 +1,13 @@
+set(ITKLabelMap_LOADED 1)
+set(ITKLabelMap_ENABLE_SHARED "1")
+set(ITKLabelMap_DEPENDS "ITKStatistics;ITKTransform")
+set(ITKLabelMap_PUBLIC_DEPENDS "")
+set(ITKLabelMap_TRANSITIVE_DEPENDS "ITKTransform")
+set(ITKLabelMap_PRIVATE_DEPENDS "ITKStatistics")
+set(ITKLabelMap_LIBRARIES "ITKLabelMap")
+set(ITKLabelMap_INCLUDE_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/Filtering/LabelMap/include")
+set(ITKLabelMap_LIBRARY_DIRS "")
+set(ITKLabelMap_RUNTIME_LIBRARY_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/lib")
+set(ITKLabelMap_TARGETS_FILE "")
+set(ITKLabelMap_FACTORY_NAMES "")
+

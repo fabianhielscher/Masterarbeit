@@ -1,0 +1,13 @@
+# Target labels
+ Swig
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Swig
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Swig.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/Swig-complete.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Swig-prefix/src/Swig-stamp/Swig-install.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Swig-prefix/src/Swig-stamp/Swig-mkdir.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Swig-prefix/src/Swig-stamp/Swig-download.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Swig-prefix/src/Swig-stamp/Swig-update.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Swig-prefix/src/Swig-stamp/Swig-patch.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Swig-prefix/src/Swig-stamp/Swig-configure.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/Swig-prefix/src/Swig-stamp/Swig-build.rule

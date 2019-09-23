@@ -1,0 +1,13 @@
+# Target labels
+ ITKIOImageBase
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/ImageBase/src/itkImageSeriesWriter.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/ImageBase/src/itkImageFileReaderException.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/ImageBase/src/itkImageFileWriter.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/ImageBase/src/itkArchetypeSeriesFileNames.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/ImageBase/src/itkImageIOFactory.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/ImageBase/src/itkIOCommon.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/ImageBase/src/itkNumericSeriesFileNames.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/ImageBase/src/itkImageIOBase.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/ImageBase/src/itkRegularExpressionSeriesFileNames.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/ImageBase/src/itkStreamingImageIOBase.cxx

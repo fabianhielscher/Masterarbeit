@@ -1,0 +1,13 @@
+# Target labels
+ ITK
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/ITK
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/ITK.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/CMakeFiles/ITK-complete.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-prefix/src/ITK-stamp/ITK-install.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-prefix/src/ITK-stamp/ITK-mkdir.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-prefix/src/ITK-stamp/ITK-download.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-prefix/src/ITK-stamp/ITK-update.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-prefix/src/ITK-stamp/ITK-patch.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-prefix/src/ITK-stamp/ITK-configure.rule
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-prefix/src/ITK-stamp/ITK-build.rule

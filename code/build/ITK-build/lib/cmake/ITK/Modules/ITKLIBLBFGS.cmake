@@ -1,0 +1,13 @@
+set(ITKLIBLBFGS_LOADED 1)
+set(ITKLIBLBFGS_ENABLE_SHARED "0")
+set(ITKLIBLBFGS_DEPENDS "")
+set(ITKLIBLBFGS_PUBLIC_DEPENDS "")
+set(ITKLIBLBFGS_TRANSITIVE_DEPENDS "")
+set(ITKLIBLBFGS_PRIVATE_DEPENDS "")
+set(ITKLIBLBFGS_LIBRARIES "itklbfgs")
+set(ITKLIBLBFGS_INCLUDE_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/libLBFGS/include;/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/ThirdParty/libLBFGS/include")
+set(ITKLIBLBFGS_LIBRARY_DIRS "")
+set(ITKLIBLBFGS_RUNTIME_LIBRARY_DIRS "/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK-build/lib")
+set(ITKLIBLBFGS_TARGETS_FILE "")
+set(ITKLIBLBFGS_FACTORY_NAMES "")
+

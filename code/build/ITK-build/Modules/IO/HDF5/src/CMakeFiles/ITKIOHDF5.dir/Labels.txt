@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOHDF5
+# Source files and their labels
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/HDF5/src/itkHDF5ImageIOFactory.cxx
+/Users/fabianhielscher/Dev/Masterarbeit/code/build/ITK/Modules/IO/HDF5/src/itkHDF5ImageIO.cxx
