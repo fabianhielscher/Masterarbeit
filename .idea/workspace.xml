@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7667c648-cd1e-465a-a8b9-9e872e04b2b7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
+  </component>
+  <component name="ProjectId" id="1U74vJ4VBT7ETpTAqtiftZCee85" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testing" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Masterarbeit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Transformation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Masterarbeit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Transformation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Masterarbeit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow-examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow-examples/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Transformation" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7667c648-cd1e-465a-a8b9-9e872e04b2b7" name="Default Changelist" comment="" />
+      <created>1574694528278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574694528278</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="345" y="207" width="1479" height="993" key="#xdebugger.evaluate" timestamp="1578332757785">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="345" y="207" width="1479" height="993" key="#xdebugger.evaluate/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1578332757785" />
+    <state width="1354" height="466" key="DebuggerActiveHint" timestamp="1575376268516">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1354" height="466" key="DebuggerActiveHint/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1575376268516" />
+    <state width="1830" height="464" key="GridCell.Tab.0.bottom" timestamp="1578394501568">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1830" height="464" key="GridCell.Tab.0.bottom/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1578394501568" />
+    <state width="1830" height="464" key="GridCell.Tab.0.center" timestamp="1578394501568">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1830" height="464" key="GridCell.Tab.0.center/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1578394501568" />
+    <state width="1830" height="464" key="GridCell.Tab.0.left" timestamp="1578394501568">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1830" height="464" key="GridCell.Tab.0.left/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1578394501568" />
+    <state width="1830" height="464" key="GridCell.Tab.0.right" timestamp="1578394501568">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1830" height="464" key="GridCell.Tab.0.right/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1578394501568" />
+    <state width="1830" height="242" key="GridCell.Tab.1.bottom" timestamp="1578394043301">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1830" height="242" key="GridCell.Tab.1.bottom/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1578394043301" />
+    <state width="1830" height="242" key="GridCell.Tab.1.center" timestamp="1578394043301">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1830" height="242" key="GridCell.Tab.1.center/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1578394043301" />
+    <state width="1830" height="242" key="GridCell.Tab.1.left" timestamp="1578394043301">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1830" height="242" key="GridCell.Tab.1.left/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1578394043301" />
+    <state width="1830" height="242" key="GridCell.Tab.1.right" timestamp="1578394043301">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1830" height="242" key="GridCell.Tab.1.right/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1578394043301" />
+    <state x="482" y="247" key="SettingsEditor" timestamp="1575374205520">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="482" y="247" key="SettingsEditor/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1575374205520" />
+    <state width="926" height="587" key="XDebugger.FullValuePopup" timestamp="1576248635251">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="926" height="587" key="XDebugger.FullValuePopup/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1576248635251" />
+    <state x="649" y="440" key="com.intellij.ide.util.TipDialog" timestamp="1576518504089">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="649" y="440" key="com.intellij.ide.util.TipDialog/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1576518504089" />
+    <state x="2299" y="128" width="1523" height="1072" key="dock-window-1" timestamp="1575561585351">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2299" y="128" width="1523" height="1072" key="dock-window-1/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1575561585351" />
+    <state x="1012" y="246" width="707" height="792" key="find.popup" timestamp="1575908489667">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="1012" y="246" width="707" height="792" key="find.popup/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1575908489667" />
+    <state x="656" y="287" width="672" height="678" key="search.everywhere.popup" timestamp="1578328450501">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="656" y="287" width="672" height="678" key="search.everywhere.popup/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1578328450501" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow-examples/test.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow-examples/test.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Transformation.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Main.py</url>
+          <line>242</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Main.py</url>
+          <line>254</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Main.py</url>
+          <line>288</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
