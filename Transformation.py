@@ -5,8 +5,11 @@ import math
 import matplotlib.pyplot as plt
 
 class rigid_2d:
-    def __init__(self, img, deg_g=0, tx_g=0, ty_g=0):
-
+    def __init__(self, img,
+                 deg_fix=0, tx_fix=0, ty_fix=0,
+                 deg_mov=0, tx_mov=0, ty_mov=0
+                 ):
+        self.eps = 0.5
         self.n_actions = 6
         self.img_g = img
         self.img = img
@@ -14,30 +17,33 @@ class rigid_2d:
         self.h = img.height
 
 
-        sin = math.sin(math.radians(deg_g))
-        cos = math.cos(math.radians(deg_g))
+        sin_fix = math.sin(math.radians(deg_fix))
+        cos_fix = math.cos(math.radians(deg_fix))
+        sin_mov = math.sin(math.radians(deg_mov))
+        cos_mov = math.cos(math.radians(deg_mov))
 
-        self.T_g = np.array([
-            [cos, -sin, tx_g],
-            [sin, cos, ty_g],
+        self.T_fix = np.array([
+            [cos_fix, -sin_fix, tx_fix],
+            [sin_fix, cos_fix, ty_fix],
             [0, 0, 1]
         ])
 
-        self.T = np.array([
-            [1, 0, 0],
-            [0, 1, 0],
+        self.T_mov = np.array([
+            [cos_mov, -sin_mov, tx_mov],
+            [sin_mov, cos_mov, ty_mov],
             [0, 0, 1]
         ])
+
         self.T_start = np.array([
-            [1, 0, 0],
-            [0, 1, 0],
+            [cos_mov, -sin_mov, tx_mov],
+            [sin_mov, cos_mov, ty_mov],
             [0, 0, 1]
         ])
         self.applied_actions_list = []
         self.reward_list = []
         self.q_list = []
         self.transform_list = []
-        self.transform_list.append(self.T)
+        self.transform_list.append(self.T_mov)
 
         # Transforms
         self.rot_pos = np.array([
@@ -85,7 +91,7 @@ class rigid_2d:
             [0, 0, 1]
         ])
         if T is None:
-            T_inv = np.linalg.inv(T_recenter @ self.T @ T_center)
+            T_inv = np.linalg.inv(T_recenter @ self.T_mov @ T_center)
         else:
             T_inv = np.linalg.inv(T_recenter @ T @ T_center)
         return self.img.transform((self.w, self.h), Image.AFFINE, data=T_inv.flatten()[:6],
@@ -104,7 +110,7 @@ class rigid_2d:
             [0, 0, 1]
         ])
 
-        T_inv = np.linalg.inv(T_recenter @ self.T_g @ T_center)
+        T_inv = np.linalg.inv(T_recenter @ self.T_fix @ T_center)
         return self.img.transform((self.w, self.h), Image.AFFINE, data=T_inv.flatten()[:6],
                                   resample=Image.NEAREST)
 
@@ -153,32 +159,31 @@ class rigid_2d:
         step += 1
 
         if self.done(next_T):
-            return immediate_reward + 0
-
+            return immediate_reward + 10
         else:
             return immediate_reward + 0.9 * self.get_q_value(next_T, step)
 
 
-    def apply_action(self, n):
+    def apply_action_discrete(self, n):
         self.applied_actions_list.append(n)
-        distance_before_action =  np.linalg.norm(self.T_g - self.T)
+        distance_before_action =  np.linalg.norm(self.T_fix - self.T_mov)
 
         if n == 0:
-            self.T = np.matmul(self.T, self.rot_pos)
+            self.T_mov = np.matmul(self.T_mov, self.rot_pos)
         elif n == 1:
-            self.T = np.matmul(self.T, self.rot_neg)
+            self.T_mov = np.matmul(self.T_mov, self.rot_neg)
         elif n == 2:
-            self.T = np.matmul(self.T, self.trans_x_pos)
+            self.T_mov = np.matmul(self.T_mov, self.trans_x_pos)
         elif n == 3:
-            self.T = np.matmul(self.T, self.trans_x_neg)
+            self.T_mov = np.matmul(self.T_mov, self.trans_x_neg)
         elif n == 4:
-            self.T = np.matmul(self.T, self.trans_y_pos)
+            self.T_mov = np.matmul(self.T_mov, self.trans_y_pos)
         elif n == 5:
-            self.T = np.matmul(self.T, self.trans_y_neg)
+            self.T_mov = np.matmul(self.T_mov, self.trans_y_neg)
 
-        distance_after_action = np.linalg.norm(self.T_g - self.T)
+        distance_after_action = np.linalg.norm(self.T_fix - self.T_mov)
         self.reward_list.append(distance_before_action - distance_after_action)
-        self.transform_list.append(self.T)
+        self.transform_list.append(self.T_mov)
 
     def apply_action_continous(self, array):
         # rot_pos
@@ -193,18 +198,18 @@ class rigid_2d:
         sin = math.sin(math.radians(deg))
         cos = math.cos(math.radians(deg))
 
-        self.T = np.matmul(self.T, np.array([
+        self.T_mov = np.matmul(self.T_mov, np.array([
             [cos, -sin, x],
             [sin, cos, y],
             [0, 0, 1]
         ]))
-        self.transform_list.append(self.T)
+        self.transform_list.append(self.T_mov)
 
     def loss_current(self):
-        return np.linalg.norm(self.T_g - self.T)
+        return np.linalg.norm(self.T_fix - self.T_mov)
 
     def loss_with_transform(self, T):
-        return np.linalg.norm(self.T_g - T)
+        return np.linalg.norm(self.T_fix - T)
 
     def loss(self, A):
         return np.linalg.norm(A)
@@ -213,23 +218,31 @@ class rigid_2d:
         best_action = 0
         lowest_next_loss = np.inf
         for n in range(self.n_actions):
-            next_loss = self.loss(self.T_g - self.get_next_transform(n, T))
+            next_loss = self.loss(self.T_fix - self.get_next_transform(n, T))
             if next_loss < lowest_next_loss:
                 lowest_next_loss = next_loss
                 best_action = n
         return best_action, lowest_next_loss
 
-    def done(self, T=None):
+    def done(self, T=None, eps=True):
+
         if T is None:
-            T = self.T
+            T = self.T_mov
         # check if there is a an action that minimizes distance
         current_loss = self.loss_with_transform(T)
 
-        for n in range(self.n_actions):
-            next_loss = self.loss(self.T_g - self.get_next_transform(n, T))
-            if next_loss < current_loss:
+        if eps:
+            if current_loss < 0.8:
+                return True
+            else:
                 return False
-        return True
+        else:
+
+            for n in range(self.n_actions):
+                next_loss = self.loss(self.T_fix - self.get_next_transform(n, T))
+                if next_loss < current_loss:
+                    return False
+            return True
 
     def return_diff_image(self, expand_dim=True):
         img_current = np.asarray(self.return_transformed_image()) / 255
@@ -257,10 +270,10 @@ class rigid_2d:
                 img_diff = np.expand_dims(test_t.return_diff_image(), axis=3)
                 model_prediction = np.array(model(img_diff))
                 action_with_highest_q = np.argmax(model_prediction)
-                best_action, _ = test_t.return_action_with_lowest_next_loss(test_t.T)
+                best_action, _ = test_t.return_action_with_lowest_next_loss(test_t.T_mov)
                 print('step: {}, best a: {}, pred: {}'.format(step, best_action, action_with_highest_q))
                 # test_t.apply_action(action_with_highest_q)
-                test_t.apply_action(best_action)
+                test_t.apply_action_discrete(best_action)
                 step += 1
                 if test_t.done():
                     success += 1
